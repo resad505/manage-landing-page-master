@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-brand: #2563eb;
+    --color-dark: #0f172a;
+    --font-vietnam: 'Be Vietnam Pro', sans-serif;
+}
+
+@utility btn-primary {
+    @apply bg-brand hover:opacity-90 px-5 py-2.5 rounded-lg font-medium text-white transition;
+}
