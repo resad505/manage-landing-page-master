@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange-400: hsl(12, 88%, 59%);
+  --color-blue-950: hsl(228, 39%, 23%);
+  --color-gray-950: hsl(233, 12%, 13%);
+  --color-orange-50: hsl(13, 100%, 96%);
+  --color-gray-50: hsl(0, 0%, 98%);
+  --font-vietnam: "Be Vietnam Pro", sans-serif;
+}
+
+@utility btn-primary {
+  @apply inline-block text-white bg-orange-400 shadow-orange-400/35 focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2 font-bold text-sm px-8 py-3.5 rounded-full shadow-lg  hover:opacity-85 transition cursor-pointer;
+}
+
+.btn-white {
+  @apply inline-block bg-white text-orange-400 hover:text-orange-400/70 focus-visible:ring-orange-400 font-bold text-sm px-8 py-3.5 rounded-full shadow-lg  transition cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2;
+}
